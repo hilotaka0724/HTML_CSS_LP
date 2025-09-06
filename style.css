@@ -33,6 +33,18 @@ li {
   color: #24292e;
 }
 
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto 130px auto;
+  font-size: 0.9rem;
+  padding: 0 4%;
+}
+
+.sec-title {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
 /* header */
 #header {
   max-width: 960px;
@@ -77,6 +89,19 @@ li {
   max-width: 1920px;
   height: 400px;
   object-fit: cover;
+}
+
+/* about */
+#about ul {
+  margin-bottom: 65px;
+}
+
+#about ul li {
+  margin-bottom: 3px;
+}
+
+#about ul li:first-child {
+  margin-bottom: 35px;
 }
 
 /* sp */
